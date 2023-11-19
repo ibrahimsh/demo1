@@ -12,4 +12,9 @@ public class control {
     {
         return "<h1> this  is  my  first web apps</h1>";
     }
+
+    @RequestMapping(value = "/test")
+    public String greetings(){
+        return "welcom to springboot";
+    }
 }
